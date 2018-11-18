@@ -1,0 +1,26 @@
+.gradle
+/build/
+
+#ignore builds and bins from gradle
+**bin
+**build
+
+#ignore settings from eclipse
+**.classpath
+**.project
+**.settings
+
+#ignore js libraries from npm
+**node_modules
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
